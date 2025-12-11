@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Recharge - Mobile Recharge</title>
+</head>
+<body>
+  <header>
+    <h1>Mobile Recharge Application</h1>
+    <nav>
+      <a href="login.html">Login</a> |
+      <a href="signup.html">Signup</a> |
+      <a href="recharge.html">Recharge</a> |
+      <a href="dashboard.html">Dashboard</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Mobile Recharge</h2>
+    <form action="#" method="post">
+      <label for="mobileNumber">Mobile Number</label><br />
+      <input type="text" id="mobileNumber" name="mobileNumber" /><br /><br />
+
+      <label for="operator">Operator</label><br />
+      <select id="operator" name="operator">
+        <option value="">Select Operator</option>
+        <option value="jio">Jio</option>
+        <option value="airtel">Airtel</option>
+        <option value="vi">VI</option>
+        <option value="bsnl">BSNL</option>
+      </select><br /><br />
+
+      <label for="circle">Circle/Region</label><br />
+      <select id="circle" name="circle">
+        <option value="">Select Circle</option>
+        <option value="tn">Tamil Nadu</option>
+        <option value="ka">Karnataka</option>
+        <option value="mh">Maharashtra</option>
+      </select><br /><br />
+
+      <label>Recharge Type</label><br />
+      <input type="radio" id="prepaid" name="type" value="prepaid" /> Prepaid
+      <input type="radio" id="postpaid" name="type" value="postpaid" /> Postpaid
+      <br /><br />
+
+      <label for="amount">Amount</label><br />
+      <input type="number" id="amount" name="amount" /><br /><br />
+
+      <button type="submit">Proceed to Pay</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mobile Recharge App</p>
+  </footer>
+</body>
+</html>
