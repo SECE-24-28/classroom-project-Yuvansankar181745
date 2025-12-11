@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Login - Mobile Recharge</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex flex-col">
+  <header class="bg-blue-600 text-white">
+    <div class="max-w-5xl mx-auto flex items-center justify-between p-4">
+      <h1 class="text-xl font-semibold">Mobile Recharge Application</h1>
+      <nav class="space-x-4">
+        <a href="login.html" class="hover:underline">Login</a>
+        <a href="signup.html" class="hover:underline">Signup</a>
+        <a href="recharge.html" class="hover:underline">Recharge</a>
+        <a href="dashboard.html" class="hover:underline">Dashboard</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="flex-1 flex items-center justify-center">
+    <div class="bg-white shadow-lg rounded-xl p-8 w-full max-w-md">
+      <h2 class="text-2xl font-bold mb-6 text-center">Login</h2>
+      <form>
+        <div class="mb-4">
+          <label for="loginEmail" class="block mb-1 font-medium">Email or Mobile</label>
+          <input
+            type="text"
+            id="loginEmail"
+            class="w-full border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
+        </div>
+
+        <div class="mb-6">
+          <label for="loginPassword" class="block mb-1 font-medium">Password</label>
+          <input
+            type="password"
+            id="loginPassword"
+            class="w-full border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
+        </div>
+
+        <button
+          type="submit"
+          class="w-full bg-blue-600 text-white font-semibold py-2 rounded-lg hover:bg-blue-700 transition"
+        >
+          Login
+        </button>
+      </form>
+      <p class="mt-4 text-center text-sm">
+        Don’t have an account?
+        <a href="signup.html" class="text-blue-600 hover:underline">Signup here</a>
+      </p>
+    </div>
+  </main>
+
+  <footer class="bg-gray-200 text-center py-3 text-sm text-gray-700">
+    &copy; 2025 Mobile Recharge App
+  </footer>
+</body>
+</html>

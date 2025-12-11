@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dashboard - Mobile Recharge</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen">
+
+<header class="bg-blue-600 text-white">
+  <div class="max-w-5xl mx-auto flex items-center justify-between p-4">
+    <h1 class="text-xl font-semibold">Mobile Recharge Application</h1>
+    <nav class="space-x-4">
+      <a href="login.html" class="hover:underline">Login</a>
+      <a href="signup.html" class="hover:underline">Signup</a>
+      <a href="recharge.html" class="hover:underline">Recharge</a>
+      <a href="dashboard.html" class="hover:underline">Dashboard</a>
+    </nav>
+  </div>
+</header>
+<main class="max-w-5xl mx-auto mt-10">
+  <section class="bg-white p-6 rounded-lg shadow mb-6">
+    <h2 class="text-2xl font-bold mb-2">User Dashboard</h2>
+    <h3 class="text-lg font-semibold mb-2">Quick Recharge</h3>
+    <p><a href="recharge.html" class="text-blue-600">Click here to Recharge</a></p>
+  </section>
+
+  <section class="bg-white p-6 rounded-lg shadow">
+    <h3 class="text-lg font-semibold mb-3">Recent Recharges</h3>
+    <table class="w-full border-collapse border">
+      <thead>
+        <tr class="bg-gray-100">
+          <th class="border px-2 py-1 text-left">Date</th>
+          <th class="border px-2 py-1 text-left">Mobile</th>
+          <th class="border px-2 py-1 text-left">Operator</th>
+          <th class="border px-2 py-1 text-left">Amount</th>
+          <th class="border px-2 py-1 text-left">Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="border px-2 py-1">01-12-2025</td>
+          <td class="border px-2 py-1">9876543210</td>
+          <td class="border px-2 py-1">Jio</td>
+          <td class="border px-2 py-1">199</td>
+          <td class="border px-2 py-1">Success</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+</main>
+<footer class="bg-gray-200 text-center py-3 text-sm text-gray-700 mt-10">
+  &copy; 2025 Mobile Recharge App
+</footer>
+
+</body>
+</html>
